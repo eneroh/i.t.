@@ -1,0 +1,15 @@
+=== fix_a_corrupted_user_profile_-_windows ===
+
+--- Preface ---
+Thinking in terms of User or Computer configurations.
+For this to resolve the corrupted USER profile, you need to confirm this is only occurring on this specific machine with this specific user profile.
+
+If this you have confirmed this and the user DOES not occur while logged into a colleagues machine WITH the corrupted profile. Then this issue will likely be resolved by this process.
+
+--- Procedure ---
+Ctrl + r > Type "AdvancedSystemProperties.exe" OR Press the windows key on your keyboard, type run, input in the run window "System Properties Advanced" > User Profiles > Settings > Select user profile that is corrupted > "Delete" and proceed
+
+Get user to log in again shortly after, takes a while due to caching. The issue should be resolved. If it isn't it is likely a computer/machine issue.
+
+--- Potential causes ---
+The admin who worked on the machine previously may have an outdated version of SCCM/configuration manager and needs to update asap
