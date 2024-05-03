@@ -7,6 +7,7 @@
   > If there is no procedure written or known, you will need to create your own procedure. Quite common in most Service Desks
 
 3. Confirm if a colleague (someone in a similar role) has relevant permissions
+4.
 4.1. Review the colleagues permissions and see how they differ from the requesting user
   > This may not always work therefore, you may also have to try the user's manager.
 4.2. Confirm if manager has relevant permissions, if so compare here as well. Be very careful, DO NOT and I MEAN DO NOT provide all manager permissions to the user as this is BAD PRACTICE and can lead to a massive security risk.
