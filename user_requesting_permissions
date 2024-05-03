@@ -1,1 +1,17 @@
+=== user requesting permissions ===
 
+--- Procedure ---
+1. Ensure a ticket/request is in place via the appropriate channels i.e. ticketing system
+2. Check if procedure is already in place
+  > If no procedure is in place, ask a colleague what procedure they perform is
+  > If there is no procedure written or known, you will need to create your own procedure. Quite common in most Service Desks
+
+3. Confirm if a colleague (someone in a similar role) has relevant permissions
+4. Review the colleagues permissions and see how they differ from the requesting user
+  > This may not always work therefore, you may also have to try the user's manager
+5. Confirm if manager has relevant permissions, if so compare here as well. Be very careful, DO NOT and I MEAN DO NOT provide all manager permissions to the user as this is BAD PRACTICE and can lead to a massive security risk.
+  > While performing the above tests, test 1 or 2 groups at a time via AD. Once determined, record procedure for next analyst.
+6. After testing performing testing with user via a private browsing windows to avoid caching, confirm if they consider the issue resolved and ask if there is anything else that they require help with.
+7. Process complete
+
+Congratulations, you have provided a user relevant permissions for their role/task at hand.
