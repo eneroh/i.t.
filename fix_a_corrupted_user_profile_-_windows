@@ -2,9 +2,9 @@
 
 --- Preface ---
 Thinking in terms of User or Computer configurations.
-For this to resolve the corrupted USER profile, you need to confirm this is only occurring on this specific machine with this specific user profile.
+To resolve the corrupted USER profile, you need to confirm this is only occurring on this specific machine with this specific user profile.
 
-If this you have confirmed this and the user DOES not occur while logged into a colleagues machine WITH the corrupted profile. Then this issue will likely be resolved by this process.
+If you have confirmed this and the issue DOES not occur while logged into a colleagues machine WITH the corrupted profile. Then this issue will likely be resolved by this process.
 
 --- Procedure ---
 Ctrl + r > Type "AdvancedSystemProperties.exe" OR Press the windows key on your keyboard, type run, input in the run window "System Properties Advanced" > User Profiles > Settings > Select user profile that is corrupted > "Delete" and proceed
