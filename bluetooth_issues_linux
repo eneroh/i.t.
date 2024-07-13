@@ -1,0 +1,18 @@
+=== linux_bluetooth_issues ===
+
+--- associated to errors ---
+src/plugin.c:init_plugin() System does not support micp plugin 2024
+src/plugin.c:init_plugin() system does not support bap plugin
+bluetoothctl no default controller available
+
+--- troubleshooting ---
+Restart of service - sudo systemctl restart bluetooth
+Updating of kernel, bluez-utils etc.
+Review information online
+
+--- solution ---
+Ensure system is unplugged from power then let the machine sit for 30 seconds, reboot machine and run:
+`sudo systemctl start bluetooth` 
+`sudo systemctl status bluetooth`
+
+Confirm connection has returned
