@@ -4,7 +4,7 @@
 TV is unable to pick up audio from desktop using HDMI.
 
 --- Additional information ---
-Realtek Digital Output (Realtek(R) Audio) is present but there's no "1 - LG TV SSCR2 (AMD High Definition Audio Device)
+Realtek Digital Output (Realtek(R) Audio) is present but there's no "1 - LG TV SSCR2 (AMD High Definition Audio Device)"
 
 --- Solution ---
 Uninstall the application: "AMD Software" from device. Reinstall device drivers from website.
