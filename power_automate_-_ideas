@@ -1,0 +1,8 @@
+=== power_automate_-_ideas ===
+1. Make it so that your onboarding software i.e. Okta or HR people software communicates with a new user script and equipment order form that requires approvals and once received enough approvals, sends the equipment form directly to the vendor to order the form, create the user and provide relevant permissions
+2. Offboarding automation that communicates with HRs people software then proceeds with a script to reset password, removes permissions/groups/licenses, change to shared mailbox and provide relevant access to manager or disable the account entirely after X time
+3. Welcome message + weather in Teams group
+4. Equipment forms + approvals to email relevant parties
+5. Onboarding forms + approvals to email relevant parties
+6. Welcome email forms to email manager and new user
+7. Offboarding user form to I.T. etc.
