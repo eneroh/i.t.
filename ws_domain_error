@@ -1,0 +1,41 @@
+=== “The trust relationship between this workstation and the primary domain failed” ===
+
+--- Cause ---
+When speaking with the user initially, it was determined that the user had been away from the primary office for 4 years
+
+Not only this but also there was no proper I.T. support assisting the user for an undisclosed amount of time.
+
+Google suggests the following as causes:
+- Broken Secure Channel
+  > Passwords can become out of sync, between AD and the machine
+- DNS issues
+- Time synchronisation errors
+  > Sensitivity between Kerberos the authentication protocol behind AD
+- Computer account issues
+  > Reusing or resetting computer accounts in AD can cause problems
+  > Password resets outside of normal domain procedures
+  > Compuer object is accidentally reused for a different machine
+- Other factors
+  > Replication issues between DCs
+  > Virtual machine provision for the dc
+  > Offline machines for longer than 90 days
+
+--- Solution ---
+1. Log into the machine with an administrator account
+2. Press the windows key on your computer
+3. Input "computer management"
+4. Press enter
+5. Go to "Local users and groups"
+6. Locate the local administrator account
+7. Right click the account
+8. Then select "Enable"
+9. If unknown, in the right click menu, change the password for the Administrator account
+10. Log out of the current account
+11. Log in with the local administrator account you just re-enabled
+12. Press the windows key
+13. Type "domain"
+14. Press enter
+15. Disconnect from your domain
+16. Log back in with your administrator account
+17. Follow steps 12 to 14
+18. Rejoin domain
